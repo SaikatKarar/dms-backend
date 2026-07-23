@@ -1,0 +1,421 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "super@demo.com",
+      "password": "123",
+      "role": "super_admin"
+    },
+    {
+      "id": "2",
+      "email": "admin@demo.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "email": "user@demo.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "email": "auditor@demo.com",
+      "password": "123",
+      "role": "auditor"
+    }
+  ],
+  "memos": [
+    {
+      "number": "MEMO-00100",
+      "subject": "Q1 Budget Review",
+      "department": "Finance",
+      "status": "Assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-01-10",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "number": "MEMO-002",
+      "subject": "Server Migration Plan",
+      "department": "IT",
+      "createdBy": "Admin",
+      "createdAt": "2026-01-22",
+      "status": "Not assigned"
+    },
+    {
+      "id": "3",
+      "number": "MEMO-003",
+      "subject": "New Hiring Policy Update",
+      "department": "HR",
+      "createdBy": "Admin",
+      "createdAt": "2026-02-05",
+      "status": "Not assigned"
+    },
+    {
+      "number": "MEMO-004",
+      "subject": "Office Supply Procurement",
+      "department": "Finance",
+      "status": "Not assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-02-18",
+      "id": "4"
+    },
+    {
+      "number": "MEMO-005",
+      "subject": "Demo Memo",
+      "department": "Admin",
+      "status": "Assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-03-02",
+      "id": "49a8"
+    },
+    {
+      "id": "4a2b",
+      "number": "MEMO-006",
+      "subject": "Server Migration Plan",
+      "department": "Finance",
+      "status": "Assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-03-06"
+    },
+    {
+      "id": "37da",
+      "number": "MEMO-007",
+      "subject": "Q1 Budget Review",
+      "department": "HR",
+      "status": "Not assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-03-06"
+    },
+    {
+      "id": "599f",
+      "number": "MEMO-008",
+      "subject": "Quarterly Security Audit & Compliance Review",
+      "department": "Operations",
+      "status": "Assigned",
+      "createdBy": "Admin",
+      "createdAt": "2026-07-22"
+    }
+  ],
+  "documents": [
+    {
+      "id": "a1b201e7-1111-4aa1-810c-d140d4d30001",
+      "file_name": "React Guide.pdf",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-005",
+      "tags": [
+        "react",
+        "frontend"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 582144,
+      "type": "application/pdf",
+      "isArchived": false,
+      "created_at": "2026-03-04T08:10:12.100Z"
+    },
+    {
+      "id": "a1b201e7-2222-4aa1-810c-d140d4d30002",
+      "file_name": "Node API Docs.pdf",
+      "folder_id": "3936",
+      "memo_title": "MEMO-006",
+      "tags": [
+        "node",
+        "backend"
+      ],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 720000,
+      "type": "application/pdf",
+      "isArchived": false,
+      "created_at": "2026-03-05T09:00:00.000Z"
+    },
+    {
+      "id": "a1b201e7-3333-4aa1-810c-d140d4d30003",
+      "file_name": "MongoDB Cheatsheet.pdf",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-007",
+      "tags": [
+        "mongodb",
+        "database"
+      ],
+      "uploaded_email": "user@demo.com",
+      "uploaded_by": "User",
+      "file_size": 315000,
+      "type": "application/pdf",
+      "isArchived": false,
+      "created_at": "2026-03-03T09:30:11.000Z"
+    },
+    {
+      "id": "a1b201e7-4444-4aa1-810c-d140d4d30004",
+      "file_name": "Security Policy.docx",
+      "folder_id": "7821",
+      "memo_title": "MEMO-008",
+      "tags": [
+        "security"
+      ],
+      "uploaded_email": "auditor@demo.com",
+      "uploaded_by": "Auditor",
+      "file_size": 140200,
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "isArchived": false,
+      "created_at": "2026-03-04T10:15:00.000Z"
+    },
+    {
+      "id": "a1b201e7-5555-4aa1-810c-d140d4d30005",
+      "file_name": "Design Mockup.png",
+      "folder_id": "3936",
+      "memo_title": "MEMO-009",
+      "tags": [
+        "design",
+        "ui"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 980340,
+      "type": "image/png",
+      "isArchived": false,
+      "created_at": "2026-03-04T11:05:00.000Z"
+    },
+    {
+      "id": "a1b201e7-6666-4aa1-810c-d140d4d30006",
+      "file_name": "Project Plan.xlsx",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-010",
+      "tags": [
+        "planning"
+      ],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 210000,
+      "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "isArchived": false,
+      "created_at": "2026-03-02T11:45:00.000Z"
+    },
+    {
+      "id": "a1b201e7-7777-4aa1-810c-d140d4d30007",
+      "file_name": "Audit_Report.pdf",
+      "folder_id": "7821",
+      "memo_title": "MEMO-011",
+      "tags": [
+        "audit"
+      ],
+      "uploaded_email": "auditor@demo.com",
+      "uploaded_by": "Auditor",
+      "file_size": 600400,
+      "type": "application/pdf",
+      "isArchived": true,
+      "created_at": "2026-03-02T12:10:00.000Z"
+    },
+    {
+      "id": "a1b201e7-8888-4aa1-810c-d140d4d30008",
+      "file_name": "Logo.svg",
+      "folder_id": "3936",
+      "memo_title": "MEMO-012",
+      "tags": [
+        "branding"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 12000,
+      "type": "image/svg+xml",
+      "isArchived": false,
+      "created_at": "2026-03-01T12:30:00.000Z"
+    },
+    {
+      "id": "a1b201e7-9999-4aa1-810c-d140d4d30009",
+      "file_name": "Meeting Notes.txt",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-013",
+      "tags": [
+        "notes"
+      ],
+      "uploaded_email": "user@demo.com",
+      "uploaded_by": "User",
+      "file_size": 4200,
+      "type": "text/plain",
+      "isArchived": false,
+      "created_at": "2026-03-01T13:00:00.000Z"
+    },
+    {
+      "id": "a1b201e7-aaaa-4aa1-810c-d140d4d30010",
+      "file_name": "Invoice_2026.pdf",
+      "folder_id": "7821",
+      "memo_title": "MEMO-014",
+      "tags": [
+        "finance"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 452300,
+      "type": "application/pdf",
+      "isArchived": false,
+      "created_at": "2026-03-01T13:25:00.000Z"
+    },
+    {
+      "id": "a1b201e7-bbbb-4aa1-810c-d140d4d30011",
+      "file_name": "Training Video.mp4",
+      "folder_id": "3936",
+      "memo_title": "MEMO-015",
+      "tags": [
+        "training"
+      ],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 5048300,
+      "type": "video/mp4",
+      "isArchived": false,
+      "created_at": "2026-03-05T14:00:00.000Z"
+    },
+    {
+      "id": "a1b201e7-cccc-4aa1-810c-d140d4d30012",
+      "file_name": "API Collection.json",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-016",
+      "tags": [
+        "api"
+      ],
+      "uploaded_email": "user@demo.com",
+      "uploaded_by": "User",
+      "file_size": 8400,
+      "type": "application/json",
+      "isArchived": false,
+      "created_at": "2026-03-05T14:30:00.000Z"
+    },
+    {
+      "id": "a1b201e7-dddd-4aa1-810c-d140d4d30013",
+      "file_name": "Wireframe.fig",
+      "folder_id": "3936",
+      "memo_title": "MEMO-017",
+      "tags": [
+        "figma",
+        "ui"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 320000,
+      "type": "application/octet-stream",
+      "isArchived": false,
+      "created_at": "2026-03-05T15:10:00.000Z"
+    },
+    {
+      "id": "a1b201e7-eeee-4aa1-810c-d140d4d30014",
+      "file_name": "Backup.zip",
+      "folder_id": "7821",
+      "memo_title": "MEMO-018",
+      "tags": [
+        "backup"
+      ],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 12500400,
+      "type": "application/zip",
+      "isArchived": true,
+      "created_at": "2026-03-05T15:40:00.000Z"
+    },
+    {
+      "id": "a1b201e7-ffff-4aa1-810c-d140d4d30015",
+      "file_name": "Requirements.docx",
+      "folder_id": "0c80",
+      "memo_title": "MEMO-019",
+      "tags": [
+        "requirements"
+      ],
+      "uploaded_email": "admin@demo.com",
+      "uploaded_by": "Admin",
+      "file_size": 190230,
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "isArchived": false,
+      "created_at": "2026-03-05T16:00:00.000Z"
+    },
+    {
+      "id": "0d571986-06d9-482f-b540-dc5a5b85d070",
+      "file_name": "screencapture-localhost-5173-2026-07-22-18_12_47.png",
+      "folder_id": "1",
+      "memo_title": "MEMO-002",
+      "tags": [
+        "new"
+      ],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 814988,
+      "type": "image/png",
+      "isArchived": false,
+      "created_at": "2026-07-22T15:22:51.862Z"
+    },
+    {
+      "id": "81459c75-5215-4c16-9457-1233e48854b3",
+      "file_name": "1DTaJFf9wFGJLftgoF0DGYOKB9uuvX0ZiPQoGRFf.jpg",
+      "folder_id": "1",
+      "memo_title": "MEMO-008",
+      "tags": [],
+      "uploaded_email": "super@demo.com",
+      "uploaded_by": "Super",
+      "file_size": 15103,
+      "type": "image/jpeg",
+      "isArchived": false,
+      "created_at": "2026-07-23T05:52:31.054Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": "1",
+      "name": "Documents",
+      "type": "folder",
+      "parentId": null,
+      "description": "Main documents folder",
+      "createdAt": "2024-01-01T10:00:00Z",
+      "updatedAt": "2024-01-01T10:00:00Z",
+      "children": [
+        {
+          "id": 2,
+          "name": "Work",
+          "type": "folder",
+          "parentId": 1,
+          "description": "Work-related documents",
+          "createdAt": "2024-01-02T09:00:00Z",
+          "children": [
+            {
+              "id": 3,
+              "name": "report.pdf",
+              "type": "file",
+              "size": "1.2 MB",
+              "uploadedAt": "2024-01-03T14:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Personal",
+          "type": "folder",
+          "parentId": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "0c80",
+      "name": "New Demo",
+      "parentId": null,
+      "description": "",
+      "type": "folder",
+      "children": [],
+      "createdAt": "2026-02-26T06:53:24.849Z",
+      "updatedAt": "2026-03-02T07:17:24.544Z",
+      "createdBy": "Admin"
+    },
+    {
+      "id": "3936",
+      "name": "Demo Folder",
+      "parentId": null,
+      "description": "",
+      "type": "folder",
+      "children": [],
+      "createdAt": "2026-03-02T07:17:47.821Z",
+      "updatedAt": "2026-03-02T07:17:47.821Z",
+      "createdBy": "Admin"
+    }
+  ]
+}
