@@ -1,13 +1,11 @@
 {
   "name": "dms-backend",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "npx json-server --host 0.0.0.0 --port $PORT db.json"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.4"
-  },
-  "engines": {
-    "node": "20.x"
+    "json-server": "^1.0.0-beta.3"
   }
 }

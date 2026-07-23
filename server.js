@@ -1,14 +1,9 @@
-import jsonServer from "json-server";
+import { create } from "json-server";
 
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults();
+const server = await create();
 
-server.use(middlewares);
-server.use(router);
-
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 10000;
 
 server.listen(PORT, () => {
-    console.log(`Server running on ${PORT}`);
+    console.log(`JSON Server running on ${PORT}`);
 });
